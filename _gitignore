@@ -1,0 +1,11 @@
+*.wav
+*.csv
+*.bmp
+
+obj
+ipch
+bak
+tmp
+
+data
+Debug
