@@ -1,0 +1,7 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialconnector\assemblyinfo.cpp(40): warning C4947: 'System::Security::Permissions::SecurityAction::RequestMinimum': 古い形式に設定されています。
+  c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialconnector\assemblyinfo.cpp(40): note: メッセージ: 'Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.'
+  SerialConnector.cpp
+  コードを生成中...
+  SerialConnector.vcxproj -> C:\Users\yamak\source\repos\SerialClientNet_for_PTU-D46-20191223T123320Z-001\SerialClientNet_for_PTU-D46\SerialConnector\bin\x86\Release\SerialConnector.dll

@@ -1,0 +1,46 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly SerialConnector, Version=1.0.*, Culture=ロケールに依存しない言語 (ロケールに依存しない国): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Serial.SerialReceiveMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(Serial.SerialMessageType, System.String[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Serial.SerialMessageType Type IsConst : Public
+    System.String[] Data : Public
+Class Serial.SerialReceiveMessageEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, SerialReceiveMessage): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(Object, SerialReceiveMessage, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class Serial.SerialConnector: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsOpen 'get set' : 
+  Events:
+    Serial.SerialReceiveMessageEventHandler ReceiveMessage: SpecialName
+  Methods:
+    GetInstance(): PrivateScope, Public, Static, HideBySig
+    add_ReceiveMessage(SerialReceiveMessageEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ReceiveMessage(SerialReceiveMessageEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_IsOpen(): PrivateScope, Public, HideBySig, SpecialName
+    Open(Int32): PrivateScope, Public, HideBySig
+    Close(): PrivateScope, Public, HideBySig
+    StartReceive(): PrivateScope, Public, HideBySig
+    StopReceive(): PrivateScope, Public, HideBySig
+    Send(String): PrivateScope, Public, HideBySig
+Struct Serial.SerialMessageType: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Serial.SerialMessageType TYPE_ERROR = 0 : Public, Static, Literal, HasDefault
+    Serial.SerialMessageType TYPE_DATA = 1 : Public, Static, Literal, HasDefault
