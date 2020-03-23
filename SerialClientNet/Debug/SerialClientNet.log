@@ -1,0 +1,16 @@
+﻿  Main.cpp
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(519): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(524): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(602): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(607): warning C4244: '引数': 'double' から 'DWORD' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(636): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  MainForm.cpp
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(519): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(524): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(602): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(607): warning C4244: '引数': 'double' から 'DWORD' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(636): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  Main.obj : マネージ コードが存在する場合は、/DEBUG:FASTLINK はサポートされません。/DEBUG:FULL でリンクを再開します
+  Main.obj : MSIL モジュールが見つかりました。MSIL ではインクリメンタル リンクは無効化されています。フル リンクを行います
+  SerialClientNet.vcxproj -> C:\Users\yamak\source\repos\SerialClientNet_for_PTU-D46-20191223T123320Z-001\SerialClientNet_for_PTU-D46\Debug\SerialClientNet.exe

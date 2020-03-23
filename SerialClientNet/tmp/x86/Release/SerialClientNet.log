@@ -1,0 +1,14 @@
+﻿  Main.cpp
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(515): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(520): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(598): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(603): warning C4244: '引数': 'double' から 'DWORD' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(632): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  MainForm.cpp
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(515): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(520): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(598): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(603): warning C4244: '引数': 'double' から 'DWORD' への変換です。データが失われる可能性があります。
+c:\users\yamak\source\repos\serialclientnet_for_ptu-d46-20191223t123320z-001\serialclientnet_for_ptu-d46\serialclientnet\mainform.h(632): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  SerialClientNet.vcxproj -> C:\Users\yamak\source\repos\SerialClientNet_for_PTU-D46-20191223T123320Z-001\SerialClientNet_for_PTU-D46\SerialClientNet\bin\x86\Release\SerialClientNet.exe
